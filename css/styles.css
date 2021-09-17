@@ -1,5 +1,4 @@
-/* first second third fourth 
-   fifth sixth seventh eighth
+/* 
 Цвета: 
 - для header и footer:
 #2196f3 голубой - текст и для подсветки активного состояния 
@@ -17,6 +16,7 @@
 #757575 светло серый - текст
 #ffffff белый - текст и фон
 #212121 темно серый - текст
+#eeeeee почти белый - фон
 */
 :root {
   --first-color: #2196f3;
@@ -27,7 +27,7 @@
   --sixth-color: #ffffff9a;
   --seventh-color: #f5f4fa;
   --eighth-color: #2f303a;
-  --
+  --ninth-color: #eeeeee;
 }
 
 /*
@@ -50,9 +50,6 @@ body {
 }
 
 /*---------header----------*/
-.header-block {
-  background-color: var();
-}
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -218,12 +215,45 @@ body {
 
 /*------------Портфолио----------*/
 
+/*----------Фильтры-------------*/
+
+.filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+  background-color: var(--seventh-color);
+}
+
 .filter-button:hover {
-  color: white;
-  background-color: #2196f3;
+  color: var(--fifth-color);
+  background-color: var(--first-color);
   cursor: pointer;
 }
 .filter-button:focus {
-  color: white;
-  background-color: #2196f3;
+  color: var(--fifth-color);
+  background-color: var(--first-color);
+}
+
+/*--------------Проекты----------*/
+
+.project-item {
+  background-color: var(--ninth-color);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--third-color);
+}
+
+.project-text {
+  font-size: 16;
+  line-height: 1.9;
+  color: var(--fourth-color);
 }
