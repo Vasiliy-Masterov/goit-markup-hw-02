@@ -1,1 +1,229 @@
+/* first second third fourth 
+   fifth sixth seventh eighth
+Цвета: 
+- для header и footer:
+#2196f3 голубой - текст и для подсветки активного состояния 
+#000000 черный - текст
+#212121 темно серый - текст
+#2f303a серый - текст
+#757575 светло серый - текст
+#ffffff белый - текст и фон
+#ffffff9a белый частично прозрачный - текст
+- для main:
+#ffffff белый - текст и фон
+#f5f4fa почти белый - фон 
+#2196f3 голубой - фон кнопки
+#2f303a серый - фон
+#757575 светло серый - текст
+#ffffff белый - текст и фон
+#212121 темно серый - текст
+*/
+:root {
+  --first-color: #2196f3;
+  --second-color: #000000;
+  --third-color: #212121;
+  --fourth-color: #757575;
+  --fifth-color: #ffffff;
+  --sixth-color: #ffffff9a;
+  --seventh-color: #f5f4fa;
+  --eighth-color: #2f303a;
+  --
+}
 
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*---------header----------*/
+.header-block {
+  background-color: var();
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--first-color);
+}
+
+.header-logo {
+  color: var(--second-color);
+}
+
+.nav-section-item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.nav-section-item:hover {
+  color: var(--first-color);
+}
+
+.nav-section-item:focus {
+  color: var(--first-color);
+}
+.current {
+  color: var(--first-color);
+}
+
+.header-item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--fourth-color);
+}
+.header-item:hover {
+  color: var(--first-color);
+}
+.header-item:focus {
+  color: var(--first-color);
+}
+
+/*-----------footer--------*/
+.footer-block {
+  background-color: var(--eighth-color);
+}
+.footer-logo {
+  color: var(--fifth-color);
+}
+.address-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--fifth-color);
+}
+.address-item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--sixth-color);
+}
+
+.address-item:hover {
+  color: var(--first-color);
+}
+
+.address-item:focus {
+  color: var(--first-color);
+}
+
+/*-------------main-Студия------------*/
+.hero-section {
+  background-color: var(--eighth-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--fifth-color);
+}
+
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--fifth-color);
+  background-color: var(--first-color);
+}
+
+/*-----------особенности--------------*/
+
+.feature-item-title {
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.2;
+  color: var(--third-color);
+}
+
+.feature-text {
+  line-height: 1.7;
+  color: var(--fourth-color);
+}
+
+/*-----------чем мы занимаемся----------*/
+
+.occupation-title {
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.2;
+  color: var(--third-color);
+}
+
+/*--------------Наша команда-------------*/
+
+.team-section {
+  background-color: var(--seventh-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.2;
+  color: var(--third-color);
+}
+
+.team-item {
+  background-color: var(--fifth-color);
+}
+
+.team-item-title {
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.2;
+  color: var(--third-color);
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16;
+  line-height: 1.2;
+  color: var(--fourth-color);
+  text-align: center;
+}
+
+/*------------Портфолио----------*/
+
+.filter-button:hover {
+  color: white;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.filter-button:focus {
+  color: white;
+  background-color: #2196f3;
+}
