@@ -27,17 +27,6 @@ body {
   text-decoration: none;
 }
 
-.nav-section-item:hover,
-.nav-section-item:focus,
-.header-item:hover,
-.header-item:focus,
-.address-item:hover,
-.address-item:focus,
-.current,
-.current-filter {
-  color: var(--accent-color);
-}
-
 /*---------header----------*/
 
 .logo {
@@ -63,6 +52,16 @@ body {
 
 .header-item {
   color: var(--text-gray-color);
+}
+
+.nav-section-item:hover,
+.nav-section-item:focus,
+.header-item:hover,
+.header-item:focus,
+.address-item:hover,
+.address-item:focus,
+.current {
+  color: var(--accent-color);
 }
 
 /*-----------footer--------*/
@@ -92,6 +91,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-color);
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -112,6 +112,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   color: var(--title-dark-gray-color);
+  text-transform: uppercase;
 }
 
 .feature-text {
@@ -176,7 +177,8 @@ body {
 }
 
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus,
+.current-filter {
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
