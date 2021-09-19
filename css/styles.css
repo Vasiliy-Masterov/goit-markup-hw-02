@@ -50,10 +50,6 @@ body {
   color: var(--nav-text-color);
 }
 
-.header-item {
-  color: var(--text-gray-color);
-}
-
 .nav-section-item:hover,
 .nav-section-item:focus,
 .header-item:hover,
@@ -62,6 +58,10 @@ body {
 .address-item:focus,
 .current {
   color: var(--accent-color);
+}
+
+.header-item {
+  color: var(--text-gray-color);
 }
 
 /*-----------footer--------*/
